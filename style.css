@@ -1,10 +1,17 @@
 body{
     font-family: 'Oswald', sans-serif;
 font-family: 'Urbanist', sans-serif;
+margin: 0;
 }
 .first-section{
     display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
     
+}
+.first-section h1,h3,p{
+    margin-top: 45px;
+    padding-left: 10px;
 }
 h1{
     font-size: 50px;
@@ -14,9 +21,9 @@ h1{
 }
 .half-width{
     width: 50%;
-    padding-left: 6%;
-   
+    padding-left: 4%;
 }
+
 .half-width img{
     width: 80%;
   
@@ -32,7 +39,15 @@ h1{
     border-radius: 5%;
     font-weight: 800;
     background-image: linear-gradient(tomato, orange);
-    color: white;
+    color: white;   
+    margin-left: 10px;   
+}
+.second-section{
+    display:flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 90px;
+    padding-bottom: 13%;
     
-      
 }
