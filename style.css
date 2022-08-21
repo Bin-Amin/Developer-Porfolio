@@ -16,6 +16,9 @@ margin: 0;
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orenge-color{
     color: orange;
 }
@@ -52,8 +55,35 @@ h1{
     
 }
 
-
 .final-part{
     display: flex;
-    padding-left: 5%;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 10%;
+    
+}
+.exp-part{
+width: 40%;
+margin-left: 5%;
+margin-right: 5%;
+padding-left: 15px;
+padding: 30px;
+box-shadow: 10px 10px 40px gray;
+}
+#full-stack{
+    border-left: 7px solid tomato;
+}
+#baby-web{
+    border-left: 7px solid blue;
+}
+footer p{
+    text-align: center;
+    
+}
+p{
+    font-weight:normal;
+    color:rgb(59, 58, 58);
+    font-size: 18px;
+    letter-spacing: 2px;
 }
